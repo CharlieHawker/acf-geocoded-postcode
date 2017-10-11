@@ -1,0 +1,21 @@
+.geocoded-postcode {
+
+}
+
+  .geocoded-postcode__field {
+    width: 150px !important;
+  }
+
+  .geocoded-postcode__field--invalid {
+    border-color: red !important;
+  }
+
+  .geocoded-postcode__invalid-message {
+    display: none;
+    font-weight: bold;
+    color: red;
+  }
+
+  .geocoded-postcode__field--invalid + .geocoded-postcode__invalid-message {
+    display: block;
+  }
